@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chaos Vanguard Extension",
+  "description": "This extension allows for quick acceptance/Rejection of a Application",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+}
